@@ -21,7 +21,7 @@ public class Xxo {
 	}
 	public static boolean set_on_field(String position,  String player){
 		for(int i=0; i<field.length;i++){
-			for(int j=0; j<field.length;j++){
+			for(int j=0; j<field[i].length;j++){
 				if(position.equals(field[i][j])){
 					field[i][j] = player;
 					return true;
